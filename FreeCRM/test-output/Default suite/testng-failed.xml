@@ -5,9 +5,12 @@
     <classes>
       <class name="com.qa.TestCase.LoginPageTest">
         <methods>
+          <include name="loginpagetest"/>
           <include name="setup"/>
           <include name="afterlogintest"/>
           <include name="tearsdown"/>
+          <include name="signup"/>
+          <include name="loginpage"/>
         </methods>
       </class> <!-- com.qa.TestCase.LoginPageTest -->
     </classes>

@@ -78,10 +78,8 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19.1</version>
 				<configuration>
-					<!-- Old design where we can hard code TestNG suite in pom.xml -->
 					<suiteXmlFiles>
-<!-- 						<suiteXmlFile>src/main/resources/testSuite/regression.xml</suiteXmlFile> -->
-						<suiteXmlFile>C:\Users\amit\eclipse-workspace\FreeCRM\src\main\resources\testng.xml</suiteXmlFile>
+						<suiteXmlFile>C:\Users\amit\git\TESTAUTOMATION\FreeCRM\src\main\resources\testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

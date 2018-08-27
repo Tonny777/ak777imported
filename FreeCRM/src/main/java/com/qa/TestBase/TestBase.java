@@ -14,8 +14,6 @@ import com.qa.util.Testutil;
 import com.qa.util.WebElementListiener;
 
 public class TestBase {
-	
-	
 	public static WebDriver driver;
 	public static Properties prop;
 	public static EventFiringWebDriver e_driver;
