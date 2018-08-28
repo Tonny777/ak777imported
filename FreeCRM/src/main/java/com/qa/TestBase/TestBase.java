@@ -23,8 +23,8 @@ public class TestBase {
 	
 		try {
 			prop=new Properties();
-			FileInputStream ip=new FileInputStream("C:\\Users\\amit\\eclipse-workspace\\FreeCRM"
-					+ "\\src\\main\\java\\com\\qa\\config\\config.properties");	
+			FileInputStream ip=new FileInputStream("C:\\Users\\amit\\git\\TESTAUTOMATION\\"
+					+ "FreeCRM\\src\\main\\java\\com\\qa\\config\\config.properties");	
 			prop.load(ip);
 			} catch (FileNotFoundException e) 
 			{
