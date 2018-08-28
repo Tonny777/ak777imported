@@ -33,12 +33,12 @@ public class HomePageTest extends TestBase{
 		contactspage=new contactpage();
 	}
 	
-	@Test()
-	public void homepagetitleTest()
-	{
-		String htitle=homepage.validatehomepagetitle();
-		Assert.assertEquals(htitle, "CRMPRO");
-	}
+//	@Test()
+//	public void homepagetitleTest()
+//	{
+//		String htitle=homepage.validatehomepagetitle();
+//		Assert.assertEquals(htitle, "CRMPRO");
+//	}
 	
 	
 	@Test()

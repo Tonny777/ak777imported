@@ -1,32 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [FREE CRM Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.qa.ExtentreportListener.ExtentReportListener"/>
-  </listeners>
-  <test name="Free CRM App Test Cases(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.qa.TestCase.HomePageTest">
         <methods>
-          <include name="logotextTest"/>
           <include name="setup"/>
-          <include name="searchTest"/>
-          <include name="contactsTest"/>
           <include name="homepagetitleTest"/>
-          <include name="upgradeaccountTest"/>
           <include name="tearsdown"/>
         </methods>
       </class> <!-- com.qa.TestCase.HomePageTest -->
-      <class name="com.qa.TestCase.LoginPageTest">
-        <methods>
-          <include name="loginpagetest"/>
-          <include name="setup"/>
-          <include name="afterlogintest"/>
-          <include name="tearsdown"/>
-          <include name="signup"/>
-          <include name="loginpage"/>
-        </methods>
-      </class> <!-- com.qa.TestCase.LoginPageTest -->
     </classes>
-  </test> <!-- Free CRM App Test Cases(failed) -->
-</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

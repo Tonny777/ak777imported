@@ -1,472 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="0" failed="0" skipped="9">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-08-27T12:37:35Z" name="FREE CRM Application Test Automation Test Suite" finished-at="2018-08-27T12:37:36Z" duration-ms="144">
+  <suite started-at="2018-08-28T06:06:02Z" name="Default suite" finished-at="2018-08-28T06:08:25Z" duration-ms="143192">
     <groups>
     </groups>
-    <test started-at="2018-08-27T12:37:35Z" name="Free CRM App Test Cases" finished-at="2018-08-27T12:37:36Z" duration-ms="144">
+    <test started-at="2018-08-28T06:06:02Z" name="Default test" finished-at="2018-08-28T06:08:25Z" duration-ms="143192">
       <class name="com.qa.TestCase.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestCase.HomePageTest@37f1104d]" started-at="2018-08-27T18:07:36Z" name="setup" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.qa.TestBase.TestBase.intialize(TestBase.java:42)
-	at com.qa.TestCase.HomePageTest.setup(HomePageTest.java:28)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestCase.HomePageTest@2a266d09]" started-at="2018-08-28T11:36:02Z" name="setup" finished-at="2018-08-28T11:36:58Z" duration-ms="55715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="contactsTest()[pri:0, instance:com.qa.TestCase.HomePageTest@37f1104d]" started-at="2018-08-27T18:07:36Z" name="contactsTest" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.qa.TestBase.TestBase.intialize(TestBase.java:42)
-	at com.qa.TestCase.HomePageTest.setup(HomePageTest.java:28)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="contactsTest()[pri:0, instance:com.qa.TestCase.HomePageTest@2a266d09]" started-at="2018-08-28T11:36:58Z" name="contactsTest" finished-at="2018-08-28T11:37:08Z" duration-ms="9954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestCase.HomePageTest@37f1104d]" started-at="2018-08-27T18:07:36Z" name="setup" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearsdown()[pri:0, instance:com.qa.TestCase.HomePageTest@2a266d09]" started-at="2018-08-28T11:37:08Z" name="tearsdown" finished-at="2018-08-28T11:37:12Z" duration-ms="3657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsdown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestCase.HomePageTest@2a266d09]" started-at="2018-08-28T11:37:12Z" name="setup" finished-at="2018-08-28T11:37:29Z" duration-ms="17841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homepagetitleTest()[pri:0, instance:com.qa.TestCase.HomePageTest@37f1104d]" started-at="2018-08-27T18:07:36Z" name="homepagetitleTest" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.qa.TestBase.TestBase.intialize(TestBase.java:42)
-	at com.qa.TestCase.HomePageTest.setup(HomePageTest.java:28)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homepagetitleTest -->
-        <test-method signature="logotextTest()[pri:0, instance:com.qa.TestCase.HomePageTest@37f1104d]" started-at="2018-08-27T18:07:36Z" name="logotextTest" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.qa.TestBase.TestBase.intialize(TestBase.java:42)
-	at com.qa.TestCase.HomePageTest.setup(HomePageTest.java:28)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="logotextTest()[pri:0, instance:com.qa.TestCase.HomePageTest@2a266d09]" started-at="2018-08-28T11:37:29Z" name="logotextTest" finished-at="2018-08-28T11:37:36Z" duration-ms="6687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logotextTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestCase.HomePageTest@37f1104d]" started-at="2018-08-27T18:07:36Z" name="setup" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearsdown()[pri:0, instance:com.qa.TestCase.HomePageTest@2a266d09]" started-at="2018-08-28T11:37:36Z" name="tearsdown" finished-at="2018-08-28T11:37:37Z" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsdown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestCase.HomePageTest@2a266d09]" started-at="2018-08-28T11:37:37Z" name="setup" finished-at="2018-08-28T11:37:55Z" duration-ms="17788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestCase.HomePageTest@37f1104d]" started-at="2018-08-27T18:07:36Z" name="setup" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="searchTest()[pri:0, instance:com.qa.TestCase.HomePageTest@37f1104d]" started-at="2018-08-27T18:07:36Z" name="searchTest" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.qa.TestBase.TestBase.intialize(TestBase.java:42)
-	at com.qa.TestCase.HomePageTest.setup(HomePageTest.java:28)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="searchTest()[pri:0, instance:com.qa.TestCase.HomePageTest@2a266d09]" started-at="2018-08-28T11:37:55Z" name="searchTest" finished-at="2018-08-28T11:37:59Z" duration-ms="4184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="upgradeaccountTest()[pri:0, instance:com.qa.TestCase.HomePageTest@37f1104d]" started-at="2018-08-27T18:07:36Z" name="upgradeaccountTest" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.qa.TestBase.TestBase.intialize(TestBase.java:42)
-	at com.qa.TestCase.HomePageTest.setup(HomePageTest.java:28)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="tearsdown()[pri:0, instance:com.qa.TestCase.HomePageTest@2a266d09]" started-at="2018-08-28T11:37:59Z" name="tearsdown" finished-at="2018-08-28T11:38:00Z" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsdown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestCase.HomePageTest@2a266d09]" started-at="2018-08-28T11:38:00Z" name="setup" finished-at="2018-08-28T11:38:20Z" duration-ms="20286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="upgradeaccountTest()[pri:0, instance:com.qa.TestCase.HomePageTest@2a266d09]" started-at="2018-08-28T11:38:20Z" name="upgradeaccountTest" finished-at="2018-08-28T11:38:24Z" duration-ms="3998" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- upgradeaccountTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestCase.HomePageTest@37f1104d]" started-at="2018-08-27T18:07:36Z" name="setup" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearsdown()[pri:0, instance:com.qa.TestCase.HomePageTest@2a266d09]" started-at="2018-08-28T11:38:24Z" name="tearsdown" finished-at="2018-08-28T11:38:25Z" duration-ms="1194" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
+        </test-method> <!-- tearsdown -->
       </class> <!-- com.qa.TestCase.HomePageTest -->
-      <class name="com.qa.TestCase.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestCase.LoginPageTest@740773a3]" started-at="2018-08-27T18:07:36Z" name="setup" finished-at="2018-08-27T18:07:36Z" duration-ms="16" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.qa.TestBase.TestBase.intialize(TestBase.java:42)
-	at com.qa.TestCase.LoginPageTest.setup(LoginPageTest.java:22)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="afterlogintest()[pri:0, instance:com.qa.TestCase.LoginPageTest@740773a3]" started-at="2018-08-27T18:07:36Z" name="afterlogintest" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.qa.TestBase.TestBase.intialize(TestBase.java:42)
-	at com.qa.TestCase.LoginPageTest.setup(LoginPageTest.java:22)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterlogintest -->
-        <test-method signature="loginpage()[pri:0, instance:com.qa.TestCase.LoginPageTest@740773a3]" started-at="2018-08-27T18:07:36Z" name="loginpage" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.qa.TestBase.TestBase.intialize(TestBase.java:42)
-	at com.qa.TestCase.LoginPageTest.setup(LoginPageTest.java:22)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginpage -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestCase.LoginPageTest@740773a3]" started-at="2018-08-27T18:07:36Z" name="setup" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginpagetest()[pri:0, instance:com.qa.TestCase.LoginPageTest@740773a3]" started-at="2018-08-27T18:07:36Z" name="loginpagetest" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.qa.TestBase.TestBase.intialize(TestBase.java:42)
-	at com.qa.TestCase.LoginPageTest.setup(LoginPageTest.java:22)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginpagetest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestCase.LoginPageTest@740773a3]" started-at="2018-08-27T18:07:36Z" name="setup" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestCase.LoginPageTest@740773a3]" started-at="2018-08-27T18:07:36Z" name="setup" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="signup()[pri:0, instance:com.qa.TestCase.LoginPageTest@740773a3]" started-at="2018-08-27T18:07:36Z" name="signup" finished-at="2018-08-27T18:07:36Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.qa.TestBase.TestBase.intialize(TestBase.java:42)
-	at com.qa.TestCase.LoginPageTest.setup(LoginPageTest.java:22)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signup -->
-      </class> <!-- com.qa.TestCase.LoginPageTest -->
-    </test> <!-- Free CRM App Test Cases -->
-  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
